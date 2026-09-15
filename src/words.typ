@@ -40,7 +40,7 @@
 /// palimpsest, and because both shapes are small, stable implementation
 /// details this package already depends on being told about if they
 /// ever change. Returns `none` for any other `metadata`, `contexture`'s
-/// own (equator's own anchors included) or a bare Typst one --
+/// own (checkitoff's own anchors included) or a bare Typst one --
 /// unaffected, since none of those hide anything behind `context` to
 /// begin with.
 #let palimpsest-clean-text(value) = {

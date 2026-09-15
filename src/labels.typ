@@ -21,7 +21,7 @@
 /// already uses, ported here since neither package depends on the
 /// other. Deliberately bundle-wide for the *referencing* side (a label
 /// could legitimately be cited from a satellite document, e.g. an
-/// equator checklist excerpt) -- only the *candidate* labels themselves
+/// checkitoff checklist excerpt) -- only the *candidate* labels themselves
 /// are scoped to the manuscript, via `.after(start).before(end)`, for
 /// the same self-pollution reason `words.typ`/`inventory.typ` already
 /// document.

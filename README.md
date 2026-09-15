@@ -70,7 +70,7 @@ Counting an abstract separately, and flagging never-cited references, both need 
 
 ## Documentation
 
-No `docs/manual.typ` yet — in the meantime, `lib.typ` and each `src/*.typ` file carry full doc comments, and [`tests/`](tests/) has one focused example per feature (word counts, a figure/table inventory, orphan labels and uncited references, a real Typst Universe template, combining with `@preview/palimpsest` and `@preview/equator` in the same bundle).
+No `docs/manual.typ` yet — in the meantime, `lib.typ` and each `src/*.typ` file carry full doc comments, and [`tests/`](tests/) has one focused example per feature (word counts, a figure/table inventory, orphan labels and uncited references, a real Typst Universe template, combining with `@preview/palimpsest` and `@preview/checkitoff` in the same bundle).
 
 ## Examples
 
@@ -86,7 +86,7 @@ Each ships its `main/` with the compiled `manuscript.pdf`, `response.pdf`, and `
 Built on [`@preview/contexture`](../typst-contexture), the small shared engine behind every multi-document compile in this ecosystem. Combines cleanly with:
 
 - [`@preview/palimpsest`](../typst-palimpsest) — manuscript revisions and a reviewer response letter that cites the real pages.
-- [`@preview/equator`](../typst-equator) — reporting-guideline checklists (CONSORT, PRISMA, SPIRIT, STARD, STROBE) filled in with the real pages.
+- [`@preview/checkitoff`](../typst-checkitoff) — reporting-guideline checklists (CONSORT, PRISMA, SPIRIT, STARD, STROBE) filled in with the real pages.
 
 ## License
 

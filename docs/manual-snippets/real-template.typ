@@ -1,7 +1,7 @@
 // Phase 4: colophon against a real, unrelated Typst Universe template
 // (@preview/unequivocal-ams), not the minimal stand-in templates used
 // throughout tests/bundle-basics/ etc. -- the same real-template check
-// equator/palimpsest's own roadmaps call for. Also exercises
+// checkitoff/palimpsest's own roadmaps call for. Also exercises
 // `abstract(...)` against the exact case it exists for: an
 // `abstract:` template parameter, evaluated before `instrument()`'s
 // own `template:` ever sees `body` -- `lorem(100)` is a real,

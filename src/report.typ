@@ -128,7 +128,7 @@
 /// from another contexture-based package sharing the same bundle can
 /// shift page breaks, so a report built from either could cite a page
 /// count that doesn't match the manuscript actually being submitted
-/// (the same reasoning `equator.checklist()`'s own `applicable` already
+/// (the same reasoning `checkitoff.checklist()`'s own `applicable` already
 /// documents).
 #let report(name: "audit", title: auto, level: 1, count-captions: false, wpm: 220, bib: none) = {
   contexture.satellite(

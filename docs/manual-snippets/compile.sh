@@ -6,7 +6,7 @@
 #
 # Run from anywhere; --root is the ecosystem directory (the parent of
 # typst-colophon), matching every cross-package absolute path
-# (/typst-palimpsest/..., /typst-equator/..., /combo-test-consort-palimpsest/...)
+# (/typst-palimpsest/..., /typst-checkitoff/..., /combo-test-consort-palimpsest/...)
 # these snippets use, the same convention typst-colophon/tests/ itself
 # relies on.
 set -e
