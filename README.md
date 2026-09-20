@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="readme-assets/logo.svg" width="110" alt="colophon logo">
+</p>
+
 # Colophon
 
 **Colophon** audits your manuscript *as actually composed* — word count (total and per section), reading time, page count, a figure/table inventory, labels never referenced, bibliography entries never cited — in a companion PDF, produced from the same compile as the manuscript itself. Unlike its sibling packages, it needs no per-passage markup: no `check()`, no `passage()` — an auditor, not an annotator.

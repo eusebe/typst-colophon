@@ -9,4 +9,4 @@ keywords = ["word count", "manuscript", "audit", "linting"]
 compiler = "0.15.0"
 categories = ["office", "utility"]
 repository = "https://github.com/eusebe/typst-colophon"
-exclude = ["tests", "CLAUDE.md", "*.pdf", "**/*.pdf", "**/*.png", ".gitignore", ".DS_Store"]
+exclude = ["tests", "CLAUDE.md", "readme-assets", "*.pdf", "**/*.pdf", "**/*.png", ".gitignore", ".DS_Store"]
