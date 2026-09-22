@@ -76,16 +76,14 @@ Counting an abstract separately, and flagging never-cited references, both need 
 
 ## Documentation
 
-No `docs/manual.typ` yet — in the meantime, `lib.typ` and each `src/*.typ` file carry full doc comments, and [`tests/`](tests/) has one focused example per feature (word counts, a figure/table inventory, orphan labels and uncited references, a real Typst Universe template, combining with `@preview/palimpsest` and `@preview/checkitoff` in the same bundle).
+No `docs/manual.typ` yet — in the meantime, `lib.typ` and each `src/*.typ` file carry full doc comments, and [`tests/`](https://github.com/eusebe/typst-colophon/tree/0.1.0/tests) has one focused example per feature (word counts, a figure/table inventory, orphan labels and uncited references, a real Typst Universe template, combining with `@preview/palimpsest` and `@preview/checkitoff` in the same bundle).
 
 ## Examples
 
 Two complete, working projects live under [`examples/`](examples/) — the same two full-length fake articles `@preview/palimpsest` uses for its own examples (`ivana-snackwell`-grade mock studies, not toy manuscripts), each with `colophon` added alongside palimpsest's own reviewer letter:
 
-- [**`fridge-study/`**](examples/fridge-study/) — against `@preview/unequivocal-ams`, with real figures built from `@preview/lilaq`.
-- [**`emoji-email/`**](examples/emoji-email/) — against `@preview/charged-ieee`'s two-column layout, same real-figure treatment.
-
-Each ships its `main/` with the compiled `manuscript.pdf`, `response.pdf`, and `audit.pdf`.
+- [**`fridge-study/`**](examples/fridge-study/) — against `@preview/unequivocal-ams`, with real figures built from `@preview/lilaq`. (⇒ pdf: [manuscript](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/fridge-study/main/manuscript.pdf), [response](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/fridge-study/main/response.pdf), [audit](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/fridge-study/main/audit.pdf))
+- [**`emoji-email/`**](examples/emoji-email/) — against `@preview/charged-ieee`'s two-column layout, same real-figure treatment. (⇒ pdf: [manuscript](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/emoji-email/main/manuscript.pdf), [response](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/emoji-email/main/response.pdf), [audit](https://github.com/eusebe/typst-colophon/blob/0.1.0/examples/emoji-email/main/audit.pdf))
 
 ## Part of the `contexture` ecosystem
 
