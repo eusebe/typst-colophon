@@ -65,7 +65,7 @@ Counting an abstract separately, and flagging never-cited references, both need 
 ```typ
 #let my-template = some-journal-template.with(
   abstract: abstract(lorem(150)),   // wrap wherever you already write it
-  ...
+  // ...other template args unchanged
 )
 
 #show: bundle.with(
@@ -87,10 +87,10 @@ Two complete, working projects live under [`examples/`](examples/) — the same 
 
 ## Part of the `contexture` ecosystem
 
-Built on [`@preview/contexture`](../typst-contexture), the small shared engine behind every multi-document compile in this ecosystem. Combines cleanly with:
+Built on [`@preview/contexture`](https://eusebe.github.io/typst-contexture-site/contexture/), the small shared engine behind every multi-document compile in this ecosystem. Combines cleanly with:
 
-- [`@preview/palimpsest`](../typst-palimpsest) — manuscript revisions and a reviewer response letter that cites the real pages.
-- [`@preview/checkitoff`](../typst-checkitoff) — reporting-guideline checklists (CONSORT, PRISMA, SPIRIT, STARD, STROBE) filled in with the real pages.
+- [`@preview/palimpsest`](https://eusebe.github.io/typst-contexture-site/palimpsest/) — manuscript revisions and a reviewer response letter that cites the real pages.
+- [`@preview/checkitoff`](https://eusebe.github.io/typst-contexture-site/checkitoff/) — reporting-guideline checklists (CONSORT, PRISMA, SPIRIT, STARD, STROBE) filled in with the real pages.
 
 ## License
 
