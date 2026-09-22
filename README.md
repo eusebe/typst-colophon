@@ -6,11 +6,13 @@
 
 **Colophon** audits your manuscript *as actually composed* — word count (total and per section), reading time, page count, a figure/table inventory, labels never referenced, bibliography entries never cited — in a companion PDF, produced from the same compile as the manuscript itself. Unlike its sibling packages, it needs no per-passage markup: no `check()`, no `passage()` — an auditor, not an annotator.
 
-<p align="center">
-  <img src="readme-assets/manuscript.png" width="420" alt="A short manuscript, compiled normally">
-  &nbsp;&nbsp;→&nbsp;&nbsp;
-  <img src="readme-assets/audit.png" width="420" alt="The generated audit.pdf: word counts, section breakdown, figure inventory">
-</p>
+<table align="center">
+<tr>
+<td align="center"><img src="readme-assets/manuscript.png" width="360" alt="A short manuscript, compiled normally"></td>
+<td align="center">→</td>
+<td align="center"><img src="readme-assets/audit.png" width="360" alt="The generated audit.pdf: word counts, section breakdown, figure inventory"></td>
+</tr>
+</table>
 
 ## The problem
 
